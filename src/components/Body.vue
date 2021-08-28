@@ -10,6 +10,7 @@
 
 <script>
 export default {
+    name: 'Body',
     data(){
         return{
             num1: 0,
