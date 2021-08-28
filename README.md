@@ -1,5 +1,7 @@
 # reactive-calc
 
+This ia simple webpage created with the Vue framework, my first real attempt at making something from it. It simply adds the two inputs and outputs it in real time.
+
 ## Project setup
 ```
 npm install
