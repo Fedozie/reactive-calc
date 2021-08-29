@@ -4,7 +4,7 @@
         <span>+</span>
         <input type="number" v-model.number="num2">
         <span>=</span>
-        <span>{{add()}}</span>
+        <span v-text="add()"></span>
     </div>
 </template>
 
