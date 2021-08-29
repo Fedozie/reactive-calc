@@ -4,7 +4,7 @@
         <span>+</span>
         <input type="number" v-model.number="num2">
         <span>=</span>
-        <span>{{num1 + num2}}</span>
+        <span>{{add()}}</span>
     </div>
 </template>
 
@@ -16,6 +16,10 @@ export default {
             num1: 0,
             num2: 0
         }
+    },
+    methods: {
+    add(){
+        return this.num1 + this.num2
     }
 }
 </script>
